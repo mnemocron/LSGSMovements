@@ -1,5 +1,5 @@
-# LSZGMovements
-Website Scraper for LSZG Airport (Sion) arrivals/departures Table.
+# LSGSMovements
+Website Scraper for LSGS Airport (Sion) arrivals/departures Table.
 Serves the arrivals/departures Table as a JSON API (files).
 
 ---
@@ -8,7 +8,7 @@ Serves the arrivals/departures Table as a JSON API (files).
 
 [![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 
-This script downloads the html table from the LSZG website: [sionaeroport.ch](https://www.sionaeroport.ch/en/flights/) and parses it into a `timetable.json` file.
+This script downloads the html table from the LSGS website: [sionaeroport.ch](https://www.sionaeroport.ch/en/flights/) and parses it into a `timetable.json` file.
 
 
 ### Usage
@@ -16,7 +16,7 @@ This script downloads the html table from the LSZG website: [sionaeroport.ch](ht
 Use the `-o` parameter to specify the output directory.
 
 ```bash
-python3 get-lszg.py -o sion/
+python3 get-lsgs.py -o sion/
 ```
 
 ### Example Output
